@@ -4,7 +4,7 @@
  * binary_tree_inorder - tranverse  from inordeer
  * @tree: pointer to the root
  * @func: pointer to the func call
- * Return: anything
+ * Return: anything among list
  */
 void binary_tree_inorder(const binary_tree_t *tree, void (*func)(int))
 {
