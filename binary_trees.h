@@ -1,5 +1,6 @@
 #ifndef BINARY_TREES_H
 #define BINARY_TREES_H
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdlib.h>
@@ -10,6 +11,7 @@
 #include <unistd.h>
 #include <math.h>
 #include <limits.h>
+#include <stddef.h>
 
 /**
  * struct binary_tree_s - Binary tree node
@@ -78,7 +80,7 @@ heap_t *array_to_heap(int *array, size_t size);
 int heap_extract(heap_t **root);
 int *heap_to_sorted_array(heap_t *heap, size_t *size);
 
-/* helper functions */
+/*
 int _pow_recursion(int x, int y);
 binary_tree_t *bta_helper(binary_tree_t *root, const binary_tree_t *first,
 			  const binary_tree_t *second);
@@ -89,5 +91,5 @@ bst_t *bst_min_val(bst_t *root);
 int btia_helper(const binary_tree_t *tree, int low, int hi);
 int btih_helper(const binary_tree_t *tree);
 void sata_helper(avl_t **root, int *array, size_t lo, size_t hi);
-
+*/
 #endif
