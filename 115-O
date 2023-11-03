@@ -1,4 +1,4 @@
-(log(n))
+0(log(n))
 O(log(n))
 O(log(n))
 
